@@ -10,8 +10,8 @@ attr_reader :name, :species
   @@all << self
   end
 
-  def say_speciea
-    "I am a human."
+  def say_species
+    p"I am a human."
   end
 
   def self.all
