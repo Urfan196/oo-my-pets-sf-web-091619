@@ -11,7 +11,7 @@ attr_reader :name, :species
   end
 
   def say_species
-    p"I am a human."
+    "I am a human."
   end
 
   def self.all
