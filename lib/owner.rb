@@ -50,7 +50,7 @@ attr_reader :name, :species
 
   def feed_cats
     Cat.all.each do |cat|
-      cat.mood == "happy"
+      cat.mood = "happy"
     end
   end
 
