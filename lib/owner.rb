@@ -10,6 +10,10 @@ attr_reader :name, :species
   @@all << self
   end
 
+  def say_speciea
+    "I am a human."
+  end
+
   def self.all
     @@all
   end
@@ -49,6 +53,7 @@ attr_reader :name, :species
       cat.mood == "happy"
     end
   end
+
 
 
 
